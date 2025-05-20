@@ -5,18 +5,60 @@ import reactExpert from "../assets/images/react_expert.png";
 import frontReact from "../assets/images/front_react.png";
 import fullStack from "../assets/images/fullstack_platzi.png";
 import frontArch from "../assets/images/front_arch.png";
+import { Habilities } from "./Habilities";
+
+import {
+  FaCss3Alt,
+  FaBootstrap,
+  FaReact,
+  FaWhatsapp,
+  FaGithub,
+  FaLinkedin,
+} from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript, SiBulma } from "react-icons/si";
+import { ImEarth } from "react-icons/im";
+
+import { CiMail } from "react-icons/ci";
+import { BsTelephone } from "react-icons/bs";
 
 export const About = () => {
   return (
     <div className="layout">
       <header>
-        <div>
-          <img src={logo} alt="juan_prieto" />
-        </div>
-        <div>
-          <h1>Juan Diego Prieto</h1>
-          <p>FullStack Developer </p>
-          <span>Zipaquira - Cundinamarca</span>
+        <div className="basic-info">
+          <h1 className="title-name">Juan Prieto Rodríguez</h1>
+          <div className="logo">
+            <img src={logo} alt="juan_prieto" width={200} height={180} />
+          </div>
+          <h2>FullStack Developer (ReactJS - NodeJS)</h2>
+          <span>
+            <ImEarth /> Zipaquirá - Cundinamarca (COL)
+          </span>
+          <div className="links">
+            <a href="mailto:jp1739@gmail.com">
+              <CiMail size={35} title="Enviame un email para charlar" />
+            </a>
+            <a href="tel:+57313398202">
+              <BsTelephone size={35} title="Llamame :)" />
+            </a>
+            <a
+              href="https://wa.me/573133908202"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaWhatsapp size={35} title="Esribeme a mi Whatsapp" />
+            </a>
+            <a href="https://github.com/jprietor13" target="_blank">
+              <FaGithub size={35} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/juan-prieto-rodr%C3%ADguez-a3b29523/"
+              target="_blank"
+            >
+              <FaLinkedin size={35} />
+            </a>
+          </div>
         </div>
       </header>
       <main>
@@ -61,8 +103,10 @@ export const About = () => {
           </article>
           <article className="experience">
             <div className="experience-header">
-              <h2>Grupo Éxito</h2>
-              <span>Frontend Developer</span>
+              <div className="job-container">
+                <h2>Grupo Éxito</h2>
+                <span>Frontend Developer</span>
+              </div>
               <h3>Mayo 2022 - Octubre 2024</h3>
             </div>
             <div className="experience-description">
@@ -80,8 +124,10 @@ export const About = () => {
           </article>
           <article className="experience">
             <div className="experience-header">
-              <h2>VTEX</h2>
-              <span>First Party App Engineer</span>
+              <div className="job-container">
+                <h2>VTEX</h2>
+                <span>First Party App Engineer</span>
+              </div>
               <h3>Marzo 2021 - Mayo 2022</h3>
             </div>
             <div className="experience-description">
@@ -99,8 +145,11 @@ export const About = () => {
           </article>
           <article className="experience">
             <div className="experience-header">
-              <h2>WAHHU (Riusoftbrand)</h2>
-              <span>Frontend Developer</span>
+              <div className="job-container">
+                <h2>WAHHU (Riusoftbrand)</h2>
+                <span>Frontend Developer</span>
+              </div>
+
               <h3>Abril 2019 - Marzo 2021</h3>
             </div>
             <div className="experience-description">
@@ -120,117 +169,124 @@ export const About = () => {
         <section className="education-container">
           <h1>Educación</h1>
           <div className="education-header">
-            <h2>Smart, Academia de idiomas</h2>
-            <span>Formación en idioma ingles (B1)</span>
+            <div className="school-container">
+              <h2>Smart, Academia de idiomas</h2>
+              <span>Formación en idioma ingles (B1)</span>
+            </div>
             <h3>Enero 2025 – Actualmente</h3>
           </div>
           <div className="education-header">
-            <h2>Universidad de Cundinamarca</h2>
-            <span>Ingeniero de Sistemas</span>
+            <div className="school-container">
+              <h2>Universidad de Cundinamarca</h2>
+              <span>Ingeniero de Sistemas</span>
+            </div>
+
             <h3>Agosto 2008 – marzo 2014</h3>
           </div>
         </section>
         <section className="certifications">
           <h1>Certificaciones</h1>
-          <article>
-            <img
-              src={jsFromFront}
-              alt="js-for-frontend"
-              width={300}
-              height={300}
-            />
-          </article>
-          <article>
-            <img
-              src={masterReact}
-              alt="master-react"
-              width={300}
-              height={300}
-            />
-          </article>
-          <article>
-            <img
-              src={reactExpert}
-              alt="react-expert"
-              width={300}
-              height={300}
-            />
-          </article>
-          <article>
-            <img src={frontReact} alt="front-react" width={300} height={300} />
-          </article>
-          <article>
-            <img src={fullStack} alt="full-stack" width={300} height={300} />
-          </article>
-          <article>
-            <img src={frontArch} alt="front-arch" width={300} height={300} />
-          </article>
+          <div className="certifications-grid">
+            <article>
+              <img src={jsFromFront} alt="js-for-frontend" />
+            </article>
+            <article>
+              <img src={masterReact} alt="master-react" />
+            </article>
+            <article>
+              <img src={reactExpert} alt="react-expert" />
+            </article>
+            <article>
+              <img src={frontReact} alt="front-react" />
+            </article>
+            <article>
+              <img src={fullStack} alt="full-stack" />
+            </article>
+            <article>
+              <img src={frontArch} alt="front-arch" />
+            </article>
+          </div>
         </section>
-        <section className="habilities">
-          <span>HTML</span>
-          <span>CSS - SASS</span>
-          <span>Bootstrap</span>
-          <span>Tailwind</span>
-          <span>JavaScript</span>
-          <span>TypeScript</span>
-          <span>Git - Github</span>
-          <span>JQuery</span>
-          <span>ReactJS</span>
-          <span>React Router</span>
-          <span>REST - GraphQL</span>
-          <span>NodeJs</span>
-          <span>StoryBook</span>
-          <span>Google Analytics</span>
-          <span>SQL</span>
-          <span>WordPress</span>
-        </section>
+        <Habilities />
         <section className="projects-container">
           <h1>Proyectos</h1>
-          <article className="project-card">
-            <a href="">
-              <h2>Todo list</h2>
-            </a>
-            <p>Aplicación tipo todo list (CRUD)</p>
-            <span>React</span>
-            <span>TypeScript</span>
-            <span>Bootstrap</span>
-          </article>
-          <article className="project-card">
-            <a href="">
-              <h2>Patient Card</h2>
-            </a>
-            <p>Simulación de ficha medica de un paciente</p>
-            <span>React</span>
-            <span>TypeScript</span>
-            <span>Bulma</span>
-          </article>
-          <article className="project-card">
-            <a href="">
-              <h2>Store availability</h2>
-            </a>
-            <p>Proyecto de practica sobre disponibilidad de tiendas</p>
-            <span>React</span>
-            <span>TypeScript</span>
-            <span>CSS</span>
-          </article>
-          <article className="project-card">
-            <a href="">
-              <h2>The movie DB</h2>
-            </a>
-            <p>Proyecto de practica para consumo de la api The movie DB</p>
-            <span>React</span>
-            <span>TypeScript</span>
-            <span>CSS</span>
-          </article>
-          <article className="project-card">
-            <a href="">
-              <h2>List of Artist</h2>
-            </a>
-            <p>Consumo API rest con información de grupos musicales</p>
-            <span>React</span>
-            <span>JavaScript</span>
-            <span>CSS</span>
-          </article>
+          <div className="projects-grid">
+            <article className="project-card">
+              <a href="">
+                <h2>Todo list</h2>
+              </a>
+              <p>Aplicación tipo todo list (CRUD)</p>
+              <span>
+                <FaReact size={35} />
+              </span>
+              <span>
+                <SiTypescript size={40} />
+              </span>
+              <span>
+                <FaBootstrap size={40} />
+              </span>
+            </article>
+            <article className="project-card">
+              <a href="">
+                <h2>Patient Card</h2>
+              </a>
+              <p>Simulación de ficha medica de un paciente</p>
+              <span>
+                <FaReact size={40} />
+              </span>
+              <span>
+                <SiTypescript size={40} />
+              </span>
+              <span>
+                <SiBulma size={40} />
+              </span>
+            </article>
+            <article className="project-card">
+              <a href="">
+                <h2>Store availability</h2>
+              </a>
+              <p>Proyecto de practica sobre disponibilidad de tiendas</p>
+              <span>
+                <FaReact size={40} />
+              </span>
+              <span>
+                <SiTypescript size={40} />
+              </span>
+              <span>
+                <FaCss3Alt size={40} />
+              </span>
+            </article>
+            <article className="project-card">
+              <a href="">
+                <h2>The movie DB</h2>
+              </a>
+              <p>Proyecto de practica para consumo de la api The movie DB</p>
+              <span>
+                <FaReact size={40} />
+              </span>
+              <span>
+                <SiTypescript size={40} />
+              </span>
+              <span>
+                <FaCss3Alt size={40} />
+              </span>
+            </article>
+            <article className="project-card">
+              <a href="">
+                <h2>List of Artist</h2>
+              </a>
+              <p>Consumo API rest con información de grupos musicales</p>
+              <span>
+                <FaReact size={40} />
+              </span>
+              <span>
+                <IoLogoJavascript size={40} />
+              </span>
+              <span>
+                <FaCss3Alt size={40} />
+              </span>
+            </article>
+          </div>
         </section>
       </main>
     </div>

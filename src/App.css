@@ -1,0 +1,138 @@
+#root {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  display: block;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  font-weight: 500;
+}
+
+.title-name {
+  margin-bottom: 16px;
+}
+
+.about,
+.experience-container,
+.education-container,
+.certifications,
+.habilities,
+.projects-container {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.basic-info h1,
+.basic-info h2,
+.basic-info span {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.logo img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.links a {
+  padding: 0 5px;
+  color: black;
+}
+
+.experience-header,
+.education-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.certifications-grid,
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+}
+
+.certifications-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.certifications-grid article {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.habilities article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.habilities span {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.project-card {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+  height: auto;
+}
+
+.project-card a {
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+.project-card h2 {
+  color: black;
+  text-decoration: none;
+}
+
+.project-card span {
+  display: inline-block;
+  margin: 0 5px;
+}
