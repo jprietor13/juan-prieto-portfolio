@@ -21,6 +21,7 @@ import { ImEarth } from "react-icons/im";
 
 import { CiMail } from "react-icons/ci";
 import { BsTelephone } from "react-icons/bs";
+import { ImageWithZoom } from "./ImageWithZoom";
 
 export const About = () => {
   return (
@@ -85,19 +86,12 @@ export const About = () => {
             </div>
             <div className="experience-description">
               <p>
-                Durante este período, estoy enfocándome en el fortalecimiento de
-                habilidades técnicas, personales y lingüísticas a través del
-                trabajo independiente y el estudio autodirigido.
-              </p>
-              <p>
-                Tras dejar una posición a tiempo completo, continué colaborando
-                como freelancer en mejoras e implementaciones de proyectos,
-                mientras realizaba un estudio intensivo de inglés en la academia
-                Smart Online, alcanzando un nivel básico-intermedio.
-                Paralelamente, desarrollé proyectos personales con tecnologías
-                como React.js, Node.js y almacenamiento local, enfocados en la
-                gestión de tareas, consumo de APIs y diseño de interfaces
-                prácticas y funcionales.
+                Actualmente fortalezco mis habilidades técnicas, personales y
+                lingüísticas mediante trabajo independiente, estudio
+                autodirigido y proyectos personales con tecnologías como
+                React.js y Node.js. Colaboro como freelancer en mejoras de
+                proyectos y estudio inglés en la academia Smart Online, con un
+                nivel básico-intermedio.
               </p>
             </div>
           </article>
@@ -187,24 +181,12 @@ export const About = () => {
         <section className="certifications">
           <h1>Certificaciones</h1>
           <div className="certifications-grid">
-            <article>
-              <img src={jsFromFront} alt="js-for-frontend" />
-            </article>
-            <article>
-              <img src={masterReact} alt="master-react" />
-            </article>
-            <article>
-              <img src={reactExpert} alt="react-expert" />
-            </article>
-            <article>
-              <img src={frontReact} alt="front-react" />
-            </article>
-            <article>
-              <img src={fullStack} alt="full-stack" />
-            </article>
-            <article>
-              <img src={frontArch} alt="front-arch" />
-            </article>
+            <ImageWithZoom src={jsFromFront} alt="js-for-frontend" />
+            <ImageWithZoom src={masterReact} alt="master-react" />
+            <ImageWithZoom src={reactExpert} alt="react-expert" />
+            <ImageWithZoom src={frontReact} alt="front-react" />
+            <ImageWithZoom src={fullStack} alt="full-stack" />
+            <ImageWithZoom src={frontArch} alt="front-arch" />
           </div>
         </section>
         <Habilities />
