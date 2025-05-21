@@ -27,7 +27,7 @@ import { CiMail } from "react-icons/ci";
 import { BsTelephone } from "react-icons/bs";
 import { ImageWithZoom } from "./ImageWithZoom";
 
-export const About = () => {
+export const AboutEng = () => {
   return (
     <div className="layout">
       <header>
@@ -90,122 +90,123 @@ export const About = () => {
       </header>
       <main>
         <section className="about">
-          <h1>Sobre Mi</h1>
+          <h1>About Me</h1>
           <p>
-            Soy Ingeniero de Sistemas con más de 10 años de experiencia en
-            diferentes campos como desarrollo de software, bases de datos y
-            administración de sistemas. Enfocado en sectores de ecommerce,
-            servicio al cliente, logística y educación. He trabajado en empresas
-            como Grupo Éxito, VTEX, WAHHU, UpwareSoft entre otras. Soy ciclista
-            aficionado, amante de la lectura, la cocina y la vida sana.
-            Actualmente me encuentro trabajando como freelance en proyectos
-            independientes y estudiando ingles intensivamente en la academia de
-            idiomas Smart.
+            I’m a Systems Engineer with over 10 years of experience in various
+            fields such as software development, databases, and systems
+            administration. I've focused on sectors like e-commerce, customer
+            service, logistics, and education. I've worked for companies such as
+            Grupo Éxito, VTEX, WAHHU, and UpwareSoft, among others. I'm an
+            amateur cyclist, a lover of reading, cooking, and healthy living.
+            Currently, I'm working as a freelancer on independent projects and
+            studying English intensively at the Smart language academy.
           </p>
         </section>
+
         <section className="experience-container">
-          <h1>Experiencia Laboral</h1>
+          <h1>Work Experience</h1>
+
           <article className="experience">
             <div className="experience-header">
-              <h2>Pausa profesional</h2>
-              <h3>Noviembre 2024 - Actualidad</h3>
+              <h2>Professional Break</h2>
+              <h3>November 2024 - Present</h3>
             </div>
             <div className="experience-description">
               <p>
-                Actualmente fortalezco mis habilidades técnicas, personales y
-                lingüísticas mediante trabajo independiente, estudio
-                autodirigido y proyectos personales con tecnologías como
-                React.js y Node.js. Colaboro como freelancer en mejoras de
-                proyectos y estudio inglés en la academia Smart Online, con un
-                nivel básico-intermedio.
+                Currently strengthening my technical, personal, and language
+                skills through independent work, self-directed study, and
+                personal projects using technologies such as React.js and
+                Node.js. I collaborate as a freelancer improving projects and
+                study English at Smart Online academy, with a basic-intermediate
+                level.
               </p>
             </div>
           </article>
+
           <article className="experience">
             <div className="experience-header">
               <div className="job-container">
                 <h2>Grupo Éxito</h2>
                 <span>Frontend Developer</span>
               </div>
-              <h3>Mayo 2022 - Octubre 2024</h3>
+              <h3>May 2022 - October 2024</h3>
             </div>
             <div className="experience-description">
               <p>
-                Desarrollé e implementé componentes para tiendas de comercio
-                electrónico, optimizando su rendimiento e integración con
-                servicios backend diseñados en Node.js. Construí módulos
-                escalables y mantenibles utilizando VTEX IO, VTEX FastStore,
-                ReactJS y NextJS, asegurando una experiencia fluida en el
-                frontend. Además, integré APIs mediante REST y GraphQL,
-                mejorando la disponibilidad y el rendimiento de los datos en la
-                interfaz de usuario.
+                I developed and implemented components for e-commerce stores,
+                optimizing their performance and integration with backend
+                services built in Node.js. I built scalable and maintainable
+                modules using VTEX IO, VTEX FastStore, ReactJS, and NextJS,
+                ensuring a smooth frontend experience. I also integrated APIs
+                using REST and GraphQL, improving data availability and UI
+                performance.
               </p>
             </div>
           </article>
+
           <article className="experience">
             <div className="experience-header">
               <div className="job-container">
                 <h2>VTEX</h2>
                 <span>First Party App Engineer</span>
               </div>
-              <h3>Marzo 2021 - Mayo 2022</h3>
+              <h3>March 2021 - May 2022</h3>
             </div>
             <div className="experience-description">
               <p>
-                Desarrollé y mantuve aplicaciones administrativas en la
-                plataforma VTEX IO, utilizando ReactJS en el frontend y
-                Node.js/NestJS en el backend, con enfoque en la gestión de
-                ecommerce. Mejoré la experiencia de usuario en plataformas de
-                comercio electrónico, incrementando la usabilidad y conversión.
-                Además, construí y personalicé tiendas adaptadas a las
-                necesidades de los clientes, e integré datos mediante APIs con
-                GraphQL, optimizando la eficiencia y los tiempos de carga.
+                I developed and maintained administrative apps on the VTEX IO
+                platform, using ReactJS on the frontend and Node.js/NestJS on
+                the backend, focusing on e-commerce management. I improved the
+                user experience on e-commerce platforms, increasing usability
+                and conversion rates. Additionally, I built and customized
+                stores tailored to client needs and integrated data through
+                GraphQL APIs, optimizing efficiency and load times.
               </p>
             </div>
           </article>
+
           <article className="experience">
             <div className="experience-header">
               <div className="job-container">
                 <h2>WAHHU (Riusoftbrand)</h2>
                 <span>Frontend Developer</span>
               </div>
-
-              <h3>Abril 2019 - Marzo 2021</h3>
+              <h3>April 2019 - March 2021</h3>
             </div>
             <div className="experience-description">
               <p>
-                Diseñé, desarrollé y mantuve vistas y módulos interactivos para
-                la aplicación WAHHU, asegurando una experiencia fluida tanto en
-                desktop como en mobile. Optimicé la interfaz de usuario
-                utilizando jQuery, JavaScript Vanilla, CSS, SASS, HTML y
-                frameworks como Bootstrap, Twig y Tailwind CSS. Además, gestioné
-                y actualicé landing pages en WordPress, mejorando su contenido y
-                estructura para optimizar la conversión y la experiencia del
-                usuario.
+                I designed, developed, and maintained interactive views and
+                modules for the WAHHU app, ensuring a smooth experience on both
+                desktop and mobile. I optimized the user interface using jQuery,
+                Vanilla JavaScript, CSS, SASS, HTML, and frameworks like
+                Bootstrap, Twig, and Tailwind CSS. I also managed and updated
+                landing pages on WordPress, improving their content and
+                structure to optimize conversion and user experience.
               </p>
             </div>
           </article>
         </section>
+
         <section className="education-container">
-          <h1>Educación</h1>
+          <h1>Education</h1>
           <div className="education-header">
             <div className="school-container">
-              <h2>Smart, Academia de idiomas</h2>
-              <span>Formación en idioma ingles (B1)</span>
+              <h2>Smart, Language Academy</h2>
+              <span>English Language Training (B1)</span>
             </div>
-            <h3>Enero 2025 – Actualmente</h3>
+            <h3>January 2025 – Present</h3>
           </div>
           <div className="education-header">
             <div className="school-container">
-              <h2>Universidad de Cundinamarca</h2>
-              <span>Ingeniero de Sistemas</span>
+              <h2>University of Cundinamarca</h2>
+              <span>Systems Engineer</span>
             </div>
-
-            <h3>Agosto 2008 – marzo 2014</h3>
+            <h3>August 2008 – March 2014</h3>
           </div>
         </section>
+
         <section className="certifications">
-          <h1>Certificaciones</h1>
+          <h1>Certifications</h1>
           <div className="certifications-grid">
             <ImageWithZoom src={jsFromFront} alt="js-for-frontend" />
             <ImageWithZoom src={masterReact} alt="master-react" />
@@ -215,15 +216,17 @@ export const About = () => {
             <ImageWithZoom src={frontArch} alt="front-arch" />
           </div>
         </section>
+
         <Habilities />
+
         <section className="projects-container">
-          <h1>Proyectos</h1>
+          <h1>Projects</h1>
           <div className="projects-grid">
             <article className="project-card">
               <a href="">
-                <h2>Todo list</h2>
+                <h2>Todo List</h2>
               </a>
-              <p>Aplicación tipo todo list (CRUD)</p>
+              <p>To-do list (CRUD) application</p>
               <span>
                 <FaReact size={35} />
               </span>
@@ -234,11 +237,12 @@ export const About = () => {
                 <FaBootstrap size={40} />
               </span>
             </article>
+
             <article className="project-card">
               <a href="">
                 <h2>Patient Card</h2>
               </a>
-              <p>Simulación de ficha medica de un paciente</p>
+              <p>Simulation of a patient's medical record</p>
               <span>
                 <FaReact size={40} />
               </span>
@@ -249,11 +253,12 @@ export const About = () => {
                 <SiBulma size={40} />
               </span>
             </article>
+
             <article className="project-card">
               <a href="">
-                <h2>Store availability</h2>
+                <h2>Store Availability</h2>
               </a>
-              <p>Proyecto de practica sobre disponibilidad de tiendas</p>
+              <p>Practice project on store availability</p>
               <span>
                 <FaReact size={40} />
               </span>
@@ -264,11 +269,12 @@ export const About = () => {
                 <FaCss3Alt size={40} />
               </span>
             </article>
+
             <article className="project-card">
               <a href="">
-                <h2>The movie DB</h2>
+                <h2>The Movie DB</h2>
               </a>
-              <p>Proyecto de practica para consumo de la api The movie DB</p>
+              <p>Practice project using The Movie DB API</p>
               <span>
                 <FaReact size={40} />
               </span>
@@ -279,11 +285,12 @@ export const About = () => {
                 <FaCss3Alt size={40} />
               </span>
             </article>
+
             <article className="project-card">
               <a href="">
-                <h2>List of Artist</h2>
+                <h2>List of Artists</h2>
               </a>
-              <p>Consumo API rest con información de grupos musicales</p>
+              <p>REST API consumption with information about music bands</p>
               <span>
                 <FaReact size={40} />
               </span>

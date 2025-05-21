@@ -5,9 +5,6 @@
 }
 
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: 4px solid #979393;
   border-radius: 4px;
 }
@@ -27,6 +24,16 @@ h2 {
 
 p {
   font-weight: 500;
+}
+
+.languages {
+  text-align: end;
+  padding: 5px;
+}
+
+.languages img {
+  margin: 0 5px;
+  cursor: pointer;
 }
 
 .title-name {
@@ -127,6 +134,7 @@ p {
 
 .project-card a:hover {
   text-decoration: underline;
+  color: white;
 }
 
 .project-card h2 {
@@ -196,5 +204,9 @@ p {
 
   h3 {
     margin: 0;
+  }
+
+  .habilities article {
+    justify-content: space-evenly;
   }
 }

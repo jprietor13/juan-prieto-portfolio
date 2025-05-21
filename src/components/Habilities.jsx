@@ -1,3 +1,5 @@
+import { useLocation } from "react-router-dom";
+
 import {
   FaHtml5,
   FaCss3Alt,
@@ -25,9 +27,13 @@ import { DiJqueryLogo } from "react-icons/di";
 import { GrGraphQl } from "react-icons/gr";
 
 export const Habilities = () => {
+  const { pathname } = useLocation();
+
+  const isEnglish = pathname.includes("/en");
+
   return (
     <section className="habilities">
-      <h1>Habilidades</h1>
+      <h1>{isEnglish ? "Skills" : "Habilidades"}</h1>
       <article>
         <span>
           <FaHtml5 size={60} />
