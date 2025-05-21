@@ -73,7 +73,7 @@ export const AboutEng = () => {
             administration. I've focused on sectors like e-commerce, customer
             service, logistics, and education. I've worked for companies such as
             Grupo Éxito, VTEX, WAHHU, and UpwareSoft, among others. I'm an
-            amateur cyclist, a lover of reading, cooking, and healthy living.
+            amateur cyclist, a lover of reading, technology, and video games.
             Currently, I'm working as a freelancer on independent projects and
             studying English intensively at the Smart language academy.
           </p>
@@ -199,7 +199,7 @@ export const AboutEng = () => {
           <h1>Projects</h1>
           <div className="projects-grid">
             <article className="project-card">
-              <a href="">
+              <a href="https://jprietor13.github.io/todo-list/" target="_blank">
                 <h2>Todo List</h2>
               </a>
               <p>To-do list (CRUD) application</p>
@@ -215,7 +215,10 @@ export const AboutEng = () => {
             </article>
 
             <article className="project-card">
-              <a href="">
+              <a
+                href="https://jprietor13.github.io/patient-card/"
+                target="_blank"
+              >
                 <h2>Patient Card</h2>
               </a>
               <p>Simulation of a patient's medical record</p>
@@ -231,7 +234,10 @@ export const AboutEng = () => {
             </article>
 
             <article className="project-card">
-              <a href="">
+              <a
+                href="https://jprietor13.github.io/store-availability/"
+                target="_blank"
+              >
                 <h2>Store Availability</h2>
               </a>
               <p>Practice project on store availability</p>
@@ -247,7 +253,7 @@ export const AboutEng = () => {
             </article>
 
             <article className="project-card">
-              <a href="">
+              <a href="https://movie-db-jp.vercel.app/" target="_blank">
                 <h2>The Movie DB</h2>
               </a>
               <p>Practice project using The Movie DB API</p>
@@ -263,7 +269,7 @@ export const AboutEng = () => {
             </article>
 
             <article className="project-card">
-              <a href="">
+              <a href="https://list-of-artists.vercel.app/" target="_blank">
                 <h2>List of Artists</h2>
               </a>
               <p>REST API consumption with information about music bands</p>

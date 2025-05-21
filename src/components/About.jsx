@@ -73,7 +73,7 @@ export const About = () => {
             administración de sistemas. Enfocado en sectores de ecommerce,
             servicio al cliente, logística y educación. He trabajado en empresas
             como Grupo Éxito, VTEX, WAHHU, UpwareSoft entre otras. Soy ciclista
-            aficionado, amante de la lectura, la cocina y la vida sana.
+            aficionado, amante de la lectura, la tecnología y los videojuegos.
             Actualmente me encuentro trabajando como freelance en proyectos
             independientes y estudiando ingles intensivamente en la academia de
             idiomas Smart.
@@ -196,7 +196,7 @@ export const About = () => {
           <h1>Proyectos</h1>
           <div className="projects-grid">
             <article className="project-card">
-              <a href="">
+              <a href="https://jprietor13.github.io/todo-list/" target="_blank">
                 <h2>Todo list</h2>
               </a>
               <p>Aplicación tipo todo list (CRUD)</p>
@@ -211,7 +211,10 @@ export const About = () => {
               </span>
             </article>
             <article className="project-card">
-              <a href="">
+              <a
+                href="https://jprietor13.github.io/patient-card/"
+                target="_blank"
+              >
                 <h2>Patient Card</h2>
               </a>
               <p>Simulación de ficha medica de un paciente</p>
@@ -226,7 +229,10 @@ export const About = () => {
               </span>
             </article>
             <article className="project-card">
-              <a href="">
+              <a
+                href="https://jprietor13.github.io/store-availability/"
+                target="_blank"
+              >
                 <h2>Store availability</h2>
               </a>
               <p>Proyecto de practica sobre disponibilidad de tiendas</p>
@@ -241,7 +247,7 @@ export const About = () => {
               </span>
             </article>
             <article className="project-card">
-              <a href="">
+              <a href="https://movie-db-jp.vercel.app/" target="_blank">
                 <h2>The movie DB</h2>
               </a>
               <p>Proyecto de practica para consumo de la api The movie DB</p>
@@ -256,7 +262,7 @@ export const About = () => {
               </span>
             </article>
             <article className="project-card">
-              <a href="">
+              <a href="https://list-of-artists.vercel.app/" target="_blank">
                 <h2>List of Artist</h2>
               </a>
               <p>Consumo API rest con información de grupos musicales</p>
