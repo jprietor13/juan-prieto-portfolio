@@ -7,10 +7,6 @@ import fullStack from "../assets/images/fullstack_platzi.png";
 import frontArch from "../assets/images/front_arch.png";
 import { Habilities } from "./Habilities";
 
-import { NavLink } from "react-router-dom";
-
-import ReactCountryFlag from "react-country-flag";
-
 import {
   FaCss3Alt,
   FaBootstrap,
@@ -26,33 +22,13 @@ import { ImEarth } from "react-icons/im";
 import { CiMail } from "react-icons/ci";
 import { BsTelephone } from "react-icons/bs";
 import { ImageWithZoom } from "./ImageWithZoom";
+import { SelectLanguage } from "./SelectLanguage";
 
 export const About = () => {
   return (
     <div className="layout">
       <header>
-        <div className="languages">
-          <NavLink to="/en">
-            <ReactCountryFlag
-              countryCode="US"
-              svg
-              style={{
-                width: "2em",
-                height: "2em",
-              }}
-            />
-          </NavLink>
-          <NavLink to="/">
-            <ReactCountryFlag
-              countryCode="ES"
-              svg
-              style={{
-                width: "2em",
-                height: "2em",
-              }}
-            />
-          </NavLink>
-        </div>
+        <SelectLanguage />
         <div className="basic-info">
           <h1 className="title-name">Juan Prieto Rodríguez</h1>
           <div className="logo">
