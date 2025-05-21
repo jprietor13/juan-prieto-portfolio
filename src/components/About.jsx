@@ -69,14 +69,11 @@ export const About = () => {
           <h1>Sobre Mi</h1>
           <p>
             Soy Ingeniero de Sistemas con más de 10 años de experiencia en
-            diferentes campos como desarrollo de software, bases de datos y
-            administración de sistemas. Enfocado en sectores de ecommerce,
-            servicio al cliente, logística y educación. He trabajado en empresas
-            como Grupo Éxito, VTEX, WAHHU, UpwareSoft entre otras. Soy ciclista
-            aficionado, amante de la lectura, la tecnología y los videojuegos.
-            Actualmente me encuentro trabajando como freelance en proyectos
-            independientes y estudiando ingles intensivamente en la academia de
-            idiomas Smart.
+            desarrollo de software, bases de datos y sistemas, enfocado en
+            ecommerce, logística, educación y servicio al cliente. He trabajado
+            en empresas como Grupo Éxito, VTEX y WAHHU. Actualmente soy
+            freelance y estudio inglés intensivamente. Apasionado por la
+            tecnología, la lectura, los videojuegos y el ciclismo.
           </p>
         </section>
         <section className="experience-container">

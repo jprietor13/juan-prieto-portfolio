@@ -68,14 +68,12 @@ export const AboutEng = () => {
         <section className="about">
           <h1>About Me</h1>
           <p>
-            I’m a Systems Engineer with over 10 years of experience in various
-            fields such as software development, databases, and systems
-            administration. I've focused on sectors like e-commerce, customer
-            service, logistics, and education. I've worked for companies such as
-            Grupo Éxito, VTEX, WAHHU, and UpwareSoft, among others. I'm an
-            amateur cyclist, a lover of reading, technology, and video games.
-            Currently, I'm working as a freelancer on independent projects and
-            studying English intensively at the Smart language academy.
+            I'm Systems Engineer with over 10 years of experience in software
+            development, databases, and systems administration, focused on
+            e-commerce, logistics, education, and customer service. I've worked
+            at companies like Grupo Éxito, VTEX, and WAHHU. Currently working as
+            a freelancer and studying English intensively. Passionate about
+            technology, reading, video games, and cycling.
           </p>
         </section>
 
