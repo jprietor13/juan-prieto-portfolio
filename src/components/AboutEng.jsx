@@ -89,12 +89,10 @@ export const AboutEng = () => {
             </div>
             <div className="experience-description">
               <p>
-                Currently strengthening my technical, personal, and language
-                skills through independent work, self-directed study, and
-                personal projects using technologies such as React.js and
-                Node.js. I collaborate as a freelancer improving projects and
-                study English at Smart Online academy, with a basic-intermediate
-                level.
+                I'm currently strengthening my technical and language skills
+                through self-directed learning, freelance work, and personal
+                projects using React.js and Node.js. I'm also studying English
+                (basic-intermediate level) at the Smart Online academy.
               </p>
             </div>
           </article>
@@ -109,13 +107,9 @@ export const AboutEng = () => {
             </div>
             <div className="experience-description">
               <p>
-                I developed and implemented components for e-commerce stores,
-                optimizing their performance and integration with backend
-                services built in Node.js. I built scalable and maintainable
-                modules using VTEX IO, VTEX FastStore, ReactJS, and NextJS,
-                ensuring a smooth frontend experience. I also integrated APIs
-                using REST and GraphQL, improving data availability and UI
-                performance.
+                Developed components for e-commerce stores using VTEX IO,
+                FastStore, React, and NextJS. Integrated REST and GraphQL APIs,
+                improving frontend performance and data availability.
               </p>
             </div>
           </article>
@@ -130,13 +124,9 @@ export const AboutEng = () => {
             </div>
             <div className="experience-description">
               <p>
-                I developed and maintained administrative apps on the VTEX IO
-                platform, using ReactJS on the frontend and Node.js/NestJS on
-                the backend, focusing on e-commerce management. I improved the
-                user experience on e-commerce platforms, increasing usability
-                and conversion rates. Additionally, I built and customized
-                stores tailored to client needs and integrated data through
-                GraphQL APIs, optimizing efficiency and load times.
+                Built administrative apps on the VTEX IO platform (React,
+                Node.js, NestJS). Customized stores and enhanced usability, data
+                integration with GraphQL, and load times.
               </p>
             </div>
           </article>
@@ -151,13 +141,9 @@ export const AboutEng = () => {
             </div>
             <div className="experience-description">
               <p>
-                I designed, developed, and maintained interactive views and
-                modules for the WAHHU app, ensuring a smooth experience on both
-                desktop and mobile. I optimized the user interface using jQuery,
-                Vanilla JavaScript, CSS, SASS, HTML, and frameworks like
-                Bootstrap, Twig, and Tailwind CSS. I also managed and updated
-                landing pages on WordPress, improving their content and
-                structure to optimize conversion and user experience.
+                Designed responsive interfaces using jQuery, JavaScript, Twig,
+                and Tailwind. Managed and improved landing pages in WordPress,
+                enhancing content and conversion rates.
               </p>
             </div>
           </article>
