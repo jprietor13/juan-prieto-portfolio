@@ -106,7 +106,7 @@ export const AboutEng = () => {
                 <h2>Freelance</h2>
                 <span>Freelance Software Developer</span>
               </div>
-              <h3>Octobrer 2024 - June 2025</h3>
+              <h3>October 2024 - June 2025</h3>
             </div>
             <div className="experience-description">
               <p>
