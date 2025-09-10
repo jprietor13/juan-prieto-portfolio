@@ -94,7 +94,7 @@ export const About = () => {
                 nube. Trabajo con scripts en VanillaJS, manejo consultas SQL y
                 participo en la implementación de nuevas funcionalidades en el
                 ERP de Flipo, desarrollando tanto en el backend con NestJS Y
-                SQL(Node.js y MySQL) como en el frontend con React.
+                SQL(Node.js y MySQL) como en el frontend con React (TypeScript).
               </p>
             </div>
           </article>

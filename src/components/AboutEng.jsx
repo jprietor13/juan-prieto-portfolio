@@ -96,7 +96,7 @@ export const AboutEng = () => {
                 work with VanillaJS scripts, manage SQL queries, and participate
                 in the implementation of new features in Flipo's ERP, developed
                 both on the backend with NestJS and SQL (Node.js and MySQL) and
-                on the frontend with React.
+                on the frontend with React (TypeScript).
               </p>
             </div>
           </article>
