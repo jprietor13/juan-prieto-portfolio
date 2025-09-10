@@ -22,6 +22,7 @@ import {
   SiBulma,
   SiExpress,
   SiJest,
+  SiNestjs,
 } from "react-icons/si";
 import { DiJqueryLogo } from "react-icons/di";
 import { GrGraphQl } from "react-icons/gr";
@@ -98,6 +99,10 @@ export const Habilities = () => {
         <span>
           <SiExpress size={60} />
           <small>ExpressJS</small>
+        </span>
+        <span>
+          <SiNestjs size={60} />
+          <small>NestJS</small>
         </span>
         <span>
           <SiStorybook size={60} />

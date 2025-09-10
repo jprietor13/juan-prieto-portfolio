@@ -14,9 +14,10 @@ import {
   FaWhatsapp,
   FaGithub,
   FaLinkedin,
+  FaDatabase,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript, SiBulma } from "react-icons/si";
+import { SiTypescript, SiBulma, SiNestjs, SiTailwindcss } from "react-icons/si";
 import { ImEarth } from "react-icons/im";
 
 import { CiMail } from "react-icons/ci";
@@ -82,15 +83,37 @@ export const AboutEng = () => {
 
           <article className="experience">
             <div className="experience-header">
-              <h2>Professional Break</h2>
-              <h3>November 2024 - Present</h3>
+              <div className="job-container">
+                <h2>FLiPO</h2>
+                <span>FullStack Developer</span>
+              </div>
+              <h3>June 2025 - Present</h3>
             </div>
             <div className="experience-description">
               <p>
-                I'm currently strengthening my technical and language skills
-                through self-directed learning, freelance work, and personal
-                projects using React.js and Node.js. I'm also studying English
-                (basic-intermediate level) at the Smart Online academy.
+                Responsible for developing new features, integrations, and
+                improvements to the backend, frontend, and cloud services. I
+                work with VanillaJS scripts, manage SQL queries, and participate
+                in the implementation of new features in Flipo's ERP, developed
+                both on the backend with NestJS and SQL (Node.js and MySQL) and
+                on the frontend with React.
+              </p>
+            </div>
+          </article>
+          <article className="experience">
+            <div className="experience-header">
+              <div className="job-container">
+                <h2>Freelance</h2>
+                <span>Freelance Software Developer</span>
+              </div>
+              <h3>Octobrer 2024 - June 2025</h3>
+            </div>
+            <div className="experience-description">
+              <p>
+                Freelance developer with experience in React, Node.js, Express,
+                and NestJS, among others, creating web applications and RESTful
+                APIs. Proficient in TypeScript, MySQL, and MongoDB, with a focus
+                on full-stack development, scalability, and best practices.
               </p>
             </div>
           </article>
@@ -182,6 +205,25 @@ export const AboutEng = () => {
         <section className="projects-container">
           <h1>Projects</h1>
           <div className="projects-grid">
+            <article className="project-card">
+              <a
+                href="https://the-new-burguer-station-front.vercel.app/#/login"
+                target="_blank"
+              >
+                <h2>The New Burguer Station</h2>
+              </a>
+              <p>App to order your burguer to your home</p>
+              <span>
+                <FaReact size={35} />
+              </span>
+              <span>
+                <SiNestjs size={35} />
+              </span>
+              <span>
+                <FaDatabase size={35} />
+              </span>
+            </article>
+
             <article className="project-card">
               <a href="https://jprietor13.github.io/todo-list/" target="_blank">
                 <h2>Todo List</h2>
