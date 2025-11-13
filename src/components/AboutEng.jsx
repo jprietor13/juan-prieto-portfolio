@@ -17,7 +17,7 @@ import {
   FaDatabase,
 } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
-import { SiTypescript, SiBulma, SiNestjs, SiTailwindcss } from "react-icons/si";
+import { SiTypescript, SiBulma, SiNestjs } from "react-icons/si";
 import { ImEarth } from "react-icons/im";
 
 import { CiMail } from "react-icons/ci";
@@ -72,7 +72,7 @@ export const AboutEng = () => {
             I'm Systems Engineer with over 10 years of experience in software
             development, databases, and systems administration, focused on
             e-commerce, logistics, education, and customer service. I've worked
-            at companies like Grupo Éxito, VTEX, and WAHHU. Currently working as
+            at companies like FLiPO Eyewear, Grupo Éxito, VTEX, and WAHHU. Currently working as
             a freelancer and studying English intensively. Passionate about
             technology, reading, video games, and cycling.
           </p>
@@ -84,19 +84,19 @@ export const AboutEng = () => {
           <article className="experience">
             <div className="experience-header">
               <div className="job-container">
-                <h2>FLiPO</h2>
+                <h2>FLiPO Eyewear</h2>
                 <span>FullStack Developer</span>
               </div>
-              <h3>June 2025 - Present</h3>
+              <h3>June 2025 - October 2025</h3>
             </div>
             <div className="experience-description">
               <p>
-                Responsible for developing new features, integrations, and
-                improvements to the backend, frontend, and cloud services. I
-                work with VanillaJS scripts, manage SQL queries, and participate
-                in the implementation of new features in Flipo's ERP, developed
-                both on the backend with NestJS and SQL (Node.js and MySQL) and
-                on the frontend with React (TypeScript).
+                Develop new features, integrations, and improvements to the
+                backend, frontend, and cloud services. Working with VanillaJS
+                scripts, SQL queries, and module development for Flipo's ERP,
+                using NestJS (Node.js, MySQL) on the backend and React
+                (TypeScript) on the frontend. Implementing design patterns and
+                best practices in software architecture.{" "}
               </p>
             </div>
           </article>
@@ -106,14 +106,15 @@ export const AboutEng = () => {
                 <h2>Freelance</h2>
                 <span>Freelance Software Developer</span>
               </div>
-              <h3>October 2024 - June 2025</h3>
+              <h3>October 2024 - Present</h3>
             </div>
             <div className="experience-description">
               <p>
-                Freelance developer with experience in React, Node.js, Express,
-                and NestJS, among others, creating web applications and RESTful
-                APIs. Proficient in TypeScript, MySQL, and MongoDB, with a focus
-                on full-stack development, scalability, and best practices.
+                Development of web applications and RESTful APIs with React,
+                Node.js, Express, and NestJS. Use of TypeScript, MySQL, and
+                MongoDB with a focus on scalability, maintainability, and
+                application of SOLID principles and common JS/TS design
+                patterns.{" "}
               </p>
             </div>
           </article>
@@ -128,9 +129,11 @@ export const AboutEng = () => {
             </div>
             <div className="experience-description">
               <p>
-                Developed components for e-commerce stores using VTEX IO,
-                FastStore, React, and NextJS. Integrated REST and GraphQL APIs,
-                improving frontend performance and data availability.
+                I developed components for e-commerce stores using VTEX IO,
+                FastStore, React, and NextJS. I integrated REST APIs and
+                GraphQL, improving frontend performance and data availability. I
+                applied design patterns such as Builder and Observer to enhance
+                code extensibility.{" "}
               </p>
             </div>
           </article>
@@ -145,9 +148,9 @@ export const AboutEng = () => {
             </div>
             <div className="experience-description">
               <p>
-                Built administrative apps on the VTEX IO platform (React,
-                Node.js, NestJS). Customized stores and enhanced usability, data
-                integration with GraphQL, and load times.
+                I built administrative apps in VTEX IO (React, Node.js, NestJS).
+                I customized stores and improved usability, data integration
+                with GraphQL, and loading times.{" "}
               </p>
             </div>
           </article>
@@ -162,9 +165,10 @@ export const AboutEng = () => {
             </div>
             <div className="experience-description">
               <p>
-                Designed responsive interfaces using jQuery, JavaScript, Twig,
-                and Tailwind. Managed and improved landing pages in WordPress,
-                enhancing content and conversion rates.
+                I designed responsive interfaces using jQuery, JavaScript, Twig,
+                and Tailwind. I managed WordPress landing pages, improving
+                content and conversion rates. I applied design patterns such as
+                the Factory Method and Abstract Factory to reusable components.{" "}
               </p>
             </div>
           </article>

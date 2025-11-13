@@ -70,9 +70,9 @@ export const About = () => {
           <h1>Sobre Mi</h1>
           <p>
             Soy Ingeniero de Sistemas con más de 10 años de experiencia en
-            desarrollo de software, bases de datos y sistemas, enfocado en
+            desarrollo de software, bases de datos y administración de sistemas, enfocado en
             ecommerce, logística, educación y servicio al cliente. He trabajado
-            en empresas como Grupo Éxito, VTEX y WAHHU. Actualmente soy
+            en empresas como FLiPO Eyewear, Grupo Éxito, VTEX y WAHHU. Actualmente soy
             freelance y estudio inglés intensivamente. Apasionado por la
             tecnología, la lectura, los videojuegos y el ciclismo.
           </p>
@@ -82,19 +82,17 @@ export const About = () => {
           <article className="experience">
             <div className="experience-header">
               <div className="job-container">
-                <h2>FLiPO</h2>
+                <h2>FLiPO Eyewear</h2>
                 <span>FullStack Developer</span>
               </div>
-              <h3>Junio 2025 - Actualidad</h3>
+              <h3>Junio 2025 - Octubre 2025</h3>
             </div>
             <div className="experience-description">
               <p>
-                Encargado del desarrollo de nuevas funcionalidades,
-                integraciones y mejoras en backend, frontend y servicios en la
-                nube. Trabajo con scripts en VanillaJS, manejo consultas SQL y
-                participo en la implementación de nuevas funcionalidades en el
-                ERP de Flipo, desarrollando tanto en el backend con NestJS Y
-                SQL(Node.js y MySQL) como en el frontend con React (TypeScript).
+              Desarrolle nuevas funcionalidades, integraciones y mejoras en backend, frontend y servicios en la nube. 
+              Trabajando con scripts en VanillaJS, consultas SQL y desarrollo de módulos para el ERP de Flipo, 
+              utilizando NestJS (Node.js, MySQL) en el backend y React (TypeScript) en el frontend. 
+              Implementando patrones de diseño y buenas prácticas de arquitectura de software.
               </p>
             </div>
           </article>
@@ -104,14 +102,13 @@ export const About = () => {
                 <h2>Autónomo</h2>
                 <span>Freelance Software Developer</span>
               </div>
-              <h3>Octubre 2024 - Junio 2025</h3>
+              <h3>Octubre 2024 - Actualidad</h3>
             </div>
             <div className="experience-description">
               <p>
-                Desarrollador freelance con experiencia en React, Node.js,
-                Express y NestJS entre otros, creando aplicaciones web y APIs
-                RESTful. Manejo de TypeScript, MySQL y MongoDB, con enfoque en
-                desarrollo fullstack, escalabilidad y buenas prácticas
+                Desarrollo de aplicaciones web y APIs RESTful con React, Node.js, 
+                Express y NestJS. Uso de TypeScript, MySQL y MongoDB con enfoque en escalabilidad, 
+                mantenibilidad y aplicación de principios SOLID y patrones de diseño comunes en JS/TS.
               </p>
             </div>
           </article>
@@ -128,7 +125,8 @@ export const About = () => {
                 Desarrollé componentes para tiendas e-commerce usando VTEX IO,
                 FastStore, React y NextJS. Integré APIs REST y GraphQL,
                 mejorando el rendimiento del frontend y la disponibilidad de
-                datos.
+                datos. Aplicando patrones de diseño como el Builder y el Observer
+                para mejorar la extensibilidad del código.
               </p>
             </div>
           </article>
@@ -161,7 +159,8 @@ export const About = () => {
               <p>
                 Diseñé interfaces responsivas con jQuery, JavaScript, Twig y
                 Tailwind. Gestioné landings en WordPress, mejorando contenido y
-                conversión.
+                conversión. Aplicando patrones de diseño como el Factory Method
+                y Abstract Factory en componentes reutilizables.
               </p>
             </div>
           </article>
