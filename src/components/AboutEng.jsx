@@ -43,7 +43,7 @@ export const AboutEng = () => {
             <a href="mailto:jp1739@gmail.com">
               <CiMail size={35} title="Enviame un email para charlar" />
             </a>
-            <a href="tel:+57313398202">
+            <a href="tel:+573133908202">
               <BsTelephone size={35} title="Llamame :)" />
             </a>
             <a
